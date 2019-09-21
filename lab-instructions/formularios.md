@@ -62,5 +62,8 @@
         <p>
             Al final del formulario deben existir dos botones, uno para limpiarlo y otro para enviarlo.
         </p>
+        <p>
+            El método de envío de información debe ser GET y se debe envíar a la página https://everis-allianz-lab.azurewebsites.net/form-get
+        </p>
     </li>
 </ol>
