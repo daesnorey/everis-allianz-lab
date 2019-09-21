@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    h2 #{last_name}, #{names} 
+    h3 #{identification_number}
+    p tel: #{phone_number}
+    p email: #{email}
+    p fecha nacimiento: #{birth_date}
+    p nombre archivo: #{cv_file.originalname}
+    a(href=`${cv_file.url}`, target='_blank', download=`${cv_file.originalname}`) Descargar
