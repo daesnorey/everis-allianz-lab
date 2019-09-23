@@ -1,8 +1,8 @@
 <h1>Laboratorio formularios HTML everis en AZC</h1>
 
-<p>En esta pagina aparecen las diferentes actividades a realizar para el laboratorio de formularios HTML, para practicar lo visto en las sesiones.</p>
-
-<a href="https://everis-allianz-lab.azurewebsites.net"><strong>https://everis-allianz-lab.azurewebsites.net</strong></a>
+<p>
+    En esta pagina aparecen las diferentes actividades a realizar para el laboratorio de formularios HTML, para practicar lo visto en las sesiones.
+</p>
 
 <ol>
     <li>
@@ -64,6 +64,77 @@
         </p>
         <p>
             El método de envío de información debe ser GET y se debe envíar a la página https://everis-allianz-lab.azurewebsites.net/form-get
+        </p>
+    </li>
+    <li>
+        <strong>Formulario registrar nueva cuenta</strong>
+        <br />
+        <p>
+            Se debe crear una pagina web que permita registrar un nuevo usuario. Para que un usuario se pueda registrar la pagina debe recibir la siguiente información:
+        </p>
+        <ul>
+            <li>
+                Nombres
+                <br />
+                nombre parametro: <em>name</em>
+            </li>
+            <li>
+                Apellidos
+                <br />
+                nombre parametro: <em>surname</em>
+            </li>
+            <li>
+                Usuario
+                <br />
+                nombre parametro: <em>username</em>
+            </li>
+            <li>
+                Contraseña
+                <br />
+                nombre parametro: <em>password</em>
+            </li>
+            <li>
+                Confirmación de contraseña
+                <br />
+                nombre parametro: <em>password_confirmation</em>
+            </li>
+        </ul>
+        <p>
+            El formulario debe tener un campo oculto que contenga el correo de la persona que desarrolló la pagina web, el nombre de este parametro debe ser <em>provider</em>
+        </p>
+        <p>
+            Al final del formulario deben existir un boton para enviar el formulario y un link a la pagina de inicio de sesión (creada en el ejercicio 3).
+        </p>
+        <p>
+            El método de envío de información debe ser POST y se debe envíar a la página https://everis-allianz-lab.azurewebsites.net/form-subscribe
+        </p>
+    </li>
+    <li>
+        <strong>Formulario iniciar sesión</strong>
+        <br />
+        <p>
+            Se debe crear una pagina web que permita iniciar sesión. La pagina debe recibir la siguiente información:
+        </p>
+        <ul>
+            <li>
+                Usuario
+                <br />
+                nombre parametro: <em>username</em>
+            </li>
+            <li>
+                Contraseña
+                <br />
+                nombre parametro: <em>password</em>
+            </li>
+        </ul>
+        <p>
+            El formulario debe tener un campo oculto que contenga el correo de la persona que desarrolló la pagina web, el nombre de este parametro debe ser <em>provider</em>
+        </p>
+        <p>
+            Al final del formulario deben existir un boton para enviar el formulario y un link a la pagina de registrar cuentas (creada en el ejercicio 2).
+        </p>
+        <p>
+            El método de envío de información debe ser POST y se debe envíar a la página https://everis-allianz-lab.azurewebsites.net/form-login
         </p>
     </li>
 </ol>
