@@ -63,7 +63,7 @@
             Al final del formulario deben existir dos botones, uno para limpiarlo y otro para enviarlo.
         </p>
         <p>
-            El método de envío de información debe ser GET y se debe envíar a la página https://everis-allianz-lab.azurewebsites.net/form-get
+            El método de envío de información debe ser GET y se debe envíar a la página https://everis-allianz-lab.azurewebsites.net/forms/course
         </p>
     </li>
     <li>
@@ -106,7 +106,7 @@
             Al final del formulario deben existir un boton para enviar el formulario y un link a la pagina de inicio de sesión (creada en el ejercicio 3).
         </p>
         <p>
-            El método de envío de información debe ser POST y se debe envíar a la página https://everis-allianz-lab.azurewebsites.net/form-subscribe
+            El método de envío de información debe ser POST y se debe envíar a la página https://everis-allianz-lab.azurewebsites.net/forms/subscribe
         </p>
     </li>
     <li>
@@ -134,7 +134,7 @@
             Al final del formulario deben existir un boton para enviar el formulario y un link a la pagina de registrar cuentas (creada en el ejercicio 2).
         </p>
         <p>
-            El método de envío de información debe ser POST y se debe envíar a la página https://everis-allianz-lab.azurewebsites.net/form-login
+            El método de envío de información debe ser POST y se debe envíar a la página https://everis-allianz-lab.azurewebsites.net/forms/login
         </p>
     </li>
 </ol>
