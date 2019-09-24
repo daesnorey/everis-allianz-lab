@@ -2,6 +2,7 @@
 var form_lab_validator = {
     validaCvRequest: function(body) {
         var isValid = true;
+        isValid = isValid && !!body.provider;
         isValid = isValid && !!body.names;
         isValid = isValid && !!body.last_name;
         isValid = isValid && !!body.phone_number;

@@ -137,4 +137,93 @@
             El método de envío de información debe ser POST y se debe envíar a la página https://everis-allianz-lab.azurewebsites.net/forms/login
         </p>
     </li>
+    <li>
+        <strong>Formulario envío hoja de vida</strong>
+        <br />
+        <p>
+            Se debe crear una pagina web que permita envíar una hoja de vida. La pagina debe recibir la siguiente información:
+        </p>
+        <ul>
+            <li>
+                Número de identificación
+                <br />
+                nombre parametro: <em>identification_number</em>
+            </li>
+            <li>
+                Nombres
+                <br />
+                nombre parametro: <em>names</em>
+            </li>
+            <li>
+                Apellidos
+                <br />
+                nombre parametro: <em>last_name</em>
+            </li>
+            <li>
+                Telefono
+                <br />
+                nombre parametro: <em>phone_number</em>
+            </li>
+            <li>
+                Correo
+                <br />
+                nombre parametro: <em>email</em>
+            </li>
+            <li>
+                Fecha de nacimiento
+                <br />
+                nombre parametro: <em>birth_date</em>
+            </li>
+            <li>
+                Documento hoja de vida
+                <br />
+                nombre parametro: <em>cv_file</em>
+            </li>
+        </ul>
+        <p>
+            El formulario debe tener un campo oculto que contenga el correo de la persona que desarrolló la pagina web, el nombre de este parametro debe ser <em>provider</em>
+        </p>
+        <p>
+            Al final del formulario debe existir un boton para enviar el formulario.
+        </p>
+        <p>
+            El método de envío de información debe ser POST y se debe envíar a la página https://everis-allianz-lab.azurewebsites.net/forms/cv el formulario debe usar el tipo de codificación "multipart/form-data"
+        </p>
+    </li>
 </ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
