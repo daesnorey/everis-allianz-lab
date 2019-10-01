@@ -6,6 +6,44 @@
 
 <ol>
     <li>
+        Lea con atención el siguiente enunciado:
+        <p>
+            Una tienda vende un chocolate por un peso, también intercambia tres envoltorios de chocolate por un nuevo chocolate.
+            <br />
+            Tienes 15 pesos ¿Cuántos chocolates puedes comer?
+            <br />
+            La respuesta es 22.
+            <br />
+            Sencillo ¿verdad?
+        </p>
+        <p>
+            Se requiere hacer un algoritmo genérico para realizar el calculo, dado lo siguiente:
+            <br />
+            Una tienda vende un chocolate por P peso, también intercambia K envoltorios de chocolate por un nuevo chocolate.
+            Si tienes N pesos. ¿Cuántos chocolates puedes comer?
+        </p>
+        <p>
+            Dadas las entradas P, K y N, devuelve la cantidad máxima de chocolates que se pueden comer.
+            <br />
+            El programa termina cuando P=0, K=0 y N=0.
+            Cree un método con el nombre "getCount", que reciba tres parámetros de entrada (P, K, N) de tipo númerico, y retorna un valor igualmente númerico.
+            <ul>
+                <li>
+                    P va de 1 hasta 1000.
+                </li>
+                <li>
+                    K va de 2 hasta 1000.
+                </li>
+                <li>
+                    N va de 3 hasta 1000000.
+                </li>
+            </ul>
+        </p>
+        <p>
+            Finalmente, se deben crear tres campos en pantalla que reciban los valores para P, K y N, y, un boton que al darle click debe llamar el método "getCount" con los valores ingresados para P, K y N, y debe mostrar el resultado en otro campo en pantalla con el titulo "Total chocolates".
+        </p>
+    </li>
+    <li>
         <strong>Formulario registro curso HTML</strong>
         <br />
         <p>
