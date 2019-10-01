@@ -5,7 +5,7 @@
 </p>
 
 <ol>
-    <li>
+    <li id="formularioRegistroCursoHTML">
         <strong>Formulario registro curso HTML</strong>
         <br />
         <p>
@@ -191,39 +191,3 @@
         </p>
     </li>
 </ol>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
