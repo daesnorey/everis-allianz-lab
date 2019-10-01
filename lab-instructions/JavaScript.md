@@ -16,28 +16,38 @@
                 Agregar escucha a evento change en campo con name birthdate, calcular edad según la fecha ingresada y poner edad calculada en campo Edad.
             </li>
             <li>
-                Agrega escucha a evento change y a evento input en campo con name hours_per_week y mostrar valor actual a lado del label con titulo para este campo.
+                Agrega escucha a evento change y a evento input en campo con name hours_per_week y mostrar valor actual al lado del label con titulo para este campo.
             </li>
             <li>
                 Agregar escucha a evento submit del formulario y realizar las siguientes validaciones:
                 <ul>
                     <li>
                         Nombre del aspirante
-                        <br />
-                        Validar que el campo haya sido diligenciado
-                        <br />
-                        Validar que el valor tenga más de 4 caracteres
-                        <br />
-                        Validar que el valor no tenga ningun número
+                        <ul>
+                            <li>
+                                Validar que el campo haya sido diligenciado
+                            </li>
+                            <li>
+                                Validar que el valor tenga más de 4 caracteres
+                            </li>
+                            <li>
+                                Validar que el valor no tenga ningun número
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         Número de identificación del aspirante
-                        <br />
-                        Validar que el campo haya sido diligenciado
-                        <br />
-                        Validar que el valor tenga más de 7 caracteres
-                        <br />
-                        Validar que el valor solo tenga numeros
+                        <ul>
+                            <li>
+                                Validar que el campo haya sido diligenciado
+                            </li>
+                            <li>
+                                Validar que el valor tenga más de 7 caracteres
+                            </li>
+                            <li>
+                                Validar que el valor solo tenga numeros
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         Fecha de nacimiento
