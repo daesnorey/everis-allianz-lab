@@ -19,7 +19,7 @@
                 Agrega escucha a evento change y a evento input en campo con name hours_per_week y mostrar valor actual al lado del label con titulo para este campo.
             </li>
             <li>
-                Agregar escucha a evento submit del formulario y realizar las siguientes validaciones:
+                Agregar escucha a evento submit del formulario y realizar las siguientes validaciones, si todas las validaciones son verdaderas se debe permitir el envío del formulario, pero si alguna falla, se debe mostrar mensaje de error y el formulario no debe ser envíado:
                 <ul>
                     <li>
                         Nombre del aspirante
@@ -51,43 +51,65 @@
                     </li>
                     <li>
                         Fecha de nacimiento
-                        <br />
-                        Validar que el campo haya sido diligenciado
-                        <br />
-                        Validar que la fecha sea valida
-                        <br />
+                        <ul>
+                            <li>
+                                Validar que el campo haya sido diligenciado
+                            </li>
+                            <li>
+                                Validar que la fecha sea valida
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         Edad
-                        <br />
-                        Validar que la edad sea mayor a 10 y menor a 100
+                        <ul>
+                            <li>
+                                Validar que la edad sea mayor a 10 y menor a 100
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         Género
-                        <br />
-                        Validar que una opción haya sido elegida
+                        <ul>
+                            <li>
+                                Validar que una opción haya sido elegida
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         Ocupación
-                        <br />
-                        Validar que el campo haya sido diligenciado
-                        <br />
-                        Validar que el valor tenga más de 3 caracteres
+                        <ul>
+                            <li>                        
+                                Validar que el campo haya sido diligenciado
+                            </li>
+                            <li>
+                                Validar que el valor tenga más de 3 caracteres
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         Horas a invertir semanalmente
-                        <br />
-                        Validar que el valor este entre 1 y 40
+                        <ul>
+                            <li>
+                                Validar que el valor este entre 1 y 40
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         Declaración de aceptación de las politicas de privacidad de la pagina
-                        <br />
-                        Validar que la el campo este elegido
+                        <ul>
+                            <li>
+                                Validar que la el campo este elegido
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         Declaración de vericidad de la información
-                        <br />
-                        Validar que la el campo este elegido
+                        <ul>
+                            <li>
+                                Validar que la el campo este elegido
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </li>
