@@ -6,7 +6,7 @@
 
 <ol>
     <li>
-        Lea con atención el siguiente enunciado:
+        <strong>Lea con atención el siguiente enunciado:</strong>
         <p>
             Una tienda vende un chocolate por un peso, también intercambia tres envoltorios de chocolate por un nuevo chocolate.
             <br />
