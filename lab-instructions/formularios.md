@@ -66,7 +66,7 @@
             El método de envío de información debe ser GET y se debe envíar a la página https://everis-allianz-lab.azurewebsites.net/forms/course
         </p>
     </li>
-    <li>
+    <li id="formularioRegistrarNuevaCuenta">
         <strong>Formulario registrar nueva cuenta</strong>
         <br />
         <p>
@@ -109,7 +109,7 @@
             El método de envío de información debe ser POST y se debe envíar a la página https://everis-allianz-lab.azurewebsites.net/forms/subscribe
         </p>
     </li>
-    <li>
+    <li id="formularioIniciarSesion">
         <strong>Formulario iniciar sesión</strong>
         <br />
         <p>

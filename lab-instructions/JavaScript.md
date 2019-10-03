@@ -153,4 +153,125 @@
             </li>
         </ul>
     </li>
+    <li>
+        <strong>Formulario registrar nueva cuenta</strong>
+        <br />
+        <p>
+            A partir del formulario creado en el <a href="formularios.md#formularioRegistrarNuevaCuenta" target="_blank">laboratorio HTML</a> realizar las siguientes acciones:
+        </p>
+        <ul>
+            <li>
+                Agregar evento change a campos con name password y password_confirmation y validar que los valores diligenciados sean iguales, en caso contrario mostrar un error.
+                <br />
+                El error unicamente debe aparecer si los dos campos están diligenciados.
+                <br />
+                Adicionalmente para el campo con name password, se debe validar la robustes de la contraseña.
+                <br />
+                Tener en cuenta número de caracteres, combinación de mayusculas y minusculas, números y caracteres especiales.
+                <br />
+                La contraseña no puede tener el usuario, ni los nombres y apellidos.
+                <br />
+                Si la contraseña es debil, se debe mostrar error tan pronto se termine de digitar.
+            </li>
+            <li>
+                Agregar escucha a evento submit del formulario y realizar las siguientes validaciones, si todas las validaciones son verdaderas se debe permitir el envío del formulario, pero si alguna falla, se debe mostrar mensaje de error y el formulario no debe ser envíado:
+                <ul>
+                    <li>
+                        Nombres
+                        <ul>
+                            <li>
+                                Validar que el campo haya sido diligenciado
+                            </li>
+                            <li>
+                                Validar que el valor tenga más de 4 caracteres
+                            </li>
+                            <li>
+                                Validar que el valor no tenga ningun número
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Apellidos
+                        <ul>
+                            <li>
+                                Validar que el campo haya sido diligenciado
+                            </li>
+                            <li>
+                                Validar que el valor tenga más de 4 caracteres
+                            </li>
+                            <li>
+                                Validar que el valor no tenga ningun número
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Usuario
+                        <ul>
+                            <li>
+                                Validar que el campo haya sido diligenciado
+                            </li>
+                            <li>
+                                Validar que el valor tenga más de 6 caracteres
+                            </li>
+                            <li>
+                                Validar que el valor no tenga ningun caracter especial
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Contraseña
+                        <ul>
+                            <li>
+                                Validar que el campo haya sido diligenciado
+                            </li>
+                            <li>
+                                Misma validación aplicada en evento change
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Confirmación de contraseña
+                        <ul>
+                            <li>
+                                Validar que el campo haya sido diligenciado
+                            </li>
+                            <li>
+                                Misma validación aplicada en evento change
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <strong>Formulario iniciar sesión</strong>
+        <br />
+        <p>
+            A partir del formulario creado en el <a href="formularios.md#formularioIniciarSesion" target="_blank">laboratorio HTML</a> realizar las siguientes acciones:
+        </p>
+        <ul>
+            <li>
+                Agregar escucha a evento submit del formulario y realizar las siguientes validaciones, si todas las validaciones son verdaderas se debe permitir el envío del formulario, pero si alguna falla, se debe mostrar mensaje de error y el formulario no debe ser envíado:
+                <ul>
+                    <li>
+                        Usuario
+                        <ul>
+                            <li>
+                                Validar que el campo haya sido diligenciado
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Contraseña
+                        <ul>
+                            <li>
+                                Validar que el campo haya sido diligenciado
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
 </ol>
