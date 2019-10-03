@@ -25,7 +25,6 @@
         <p>
             Dadas las entradas P, K y N, devuelve la cantidad máxima de chocolates que se pueden comer.
             <br />
-            El programa termina cuando P=0, K=0 y N=0.
             Cree un método con el nombre "getCount", que reciba tres parámetros de entrada (P, K, N) de tipo númerico, y retorna un valor igualmente númerico.
             <ul>
                 <li>
